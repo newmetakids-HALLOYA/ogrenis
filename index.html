@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<title>ÖĞRENİŞ</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="ogr-base.css?v=0.7.0">
+<link rel="stylesheet" href="ogr-world.css?v=0.7.0">
+<link rel="stylesheet" href="ogr-games.css?v=0.7.0">
+</head>
+<body>
+<div class="app">
+<section class="screen active" id="screen-home" aria-hidden="false">
+<svg class="world" viewBox="0 0 390 780" preserveAspectRatio="xMidYMax slice" role="img" aria-label="ÖĞRENİŞ kasabası">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6cc4fb"/><stop offset=".55" stop-color="#b9e8ff"/><stop offset="1" stop-color="#fff0c9"/></linearGradient>
+<linearGradient id="gr" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#97dc8a"/><stop offset="1" stop-color="#62b968"/></linearGradient>
+<radialGradient id="sun"><stop offset="0" stop-color="#fff3a8"/><stop offset="1" stop-color="#fff3a8" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="390" height="780" fill="url(#sky)"/>
+<circle cx="318" cy="238" r="70" fill="url(#sun)"/><circle cx="318" cy="238" r="26" fill="#ffd95a" class="o"/>
+<g class="cloud" fill="#fff" opacity=".95"><ellipse cx="70" cy="215" rx="38" ry="14"/><ellipse cx="92" cy="203" rx="24" ry="14"/><ellipse cx="52" cy="206" rx="18" ry="10"/></g>
+<g class="cloud cloud2" fill="#fff" opacity=".9"><ellipse cx="205" cy="270" rx="30" ry="11"/><ellipse cx="222" cy="261" rx="18" ry="11"/></g>
+<path d="M0 330Q90 270 190 322T390 300V470H0Z" fill="#b2e3a8"/>
+<path d="M0 385Q120 335 240 378T390 352V540H0Z" fill="#96d98b"/>
+<path d="M0 442Q195 408 390 442V780H0Z" fill="url(#gr)"/>
+<!-- rails -->
+<rect x="0" y="434" width="390" height="9" fill="#9a7a5c"/><path d="M0 438H390" stroke="#6f563f" stroke-width="2" stroke-dasharray="7 9"/>
+<!-- paths -->
+<path d="M150 600Q98 540 84 440L112 440Q128 520 178 590Z" fill="#fff0cc"/>
+<path d="M214 590Q262 560 286 545L304 552Q268 584 238 608Z" fill="#fff0cc"/>
+<path d="M150 622Q134 700 122 780H268Q256 700 240 622Z" fill="#fff0cc"/>
+<ellipse cx="195" cy="612" rx="108" ry="34" fill="#fff0cc"/><ellipse cx="195" cy="612" rx="108" ry="34" fill="none" stroke="#f2d9a0" stroke-width="3"/>
+
+<!-- Kelime Ormanı -->
+<g data-place="orman" role="button" tabindex="0" aria-label="Kelime Ormanı">
+<rect x="244" y="250" width="140" height="180" fill="transparent"/>
+<ellipse cx="322" cy="418" rx="62" ry="9" fill="#2f6f45" opacity=".25"/>
+<rect x="283" y="388" width="9" height="26" rx="3" fill="#b9824f" class="o"/><circle cx="288" cy="376" r="22" fill="#3f9d63" class="o"/><circle cx="281" cy="368" r="9" fill="#62bb74" class="n"/>
+<rect x="354" y="392" width="9" height="24" rx="3" fill="#b9824f" class="o"/><circle cx="358" cy="380" r="20" fill="#4aaa6b" class="o"/><circle cx="352" cy="373" r="8" fill="#6fc27a" class="n"/>
+<rect x="324" y="380" width="11" height="34" rx="3" fill="#b9824f" class="o"/><circle cx="329" cy="362" r="29" fill="#3f9d63" class="o"/><circle cx="320" cy="352" r="12" fill="#62bb74" class="n"/>
+<g class="bob"><rect x="262" y="322" width="26" height="26" rx="8" fill="#ffcf4a" class="o"/><text x="275" y="341" text-anchor="middle" font-size="17">K</text></g>
+<g class="bob2"><rect x="298" y="300" width="26" height="26" rx="8" fill="#ff9b54" class="o"/><text x="311" y="319" text-anchor="middle" font-size="17">E</text></g>
+<g class="bob3"><rect x="336" y="316" width="26" height="26" rx="8" fill="#7ccbff" class="o"/><text x="349" y="335" text-anchor="middle" font-size="17">L</text></g>
+<rect class="pill o" x="291" y="254" width="62" height="26" rx="13" fill="#fff3d6"/><text x="322" y="272" text-anchor="middle" font-size="14">Orman</text>
+</g>
+
+<!-- Tren İstasyonu -->
+<g data-place="istasyon" role="button" tabindex="0" aria-label="Tren İstasyonu">
+<rect x="20" y="318" width="236" height="130" fill="transparent"/>
+<ellipse cx="90" cy="436" rx="70" ry="8" fill="#2f6f45" opacity=".22"/>
+<rect x="38" y="378" width="98" height="58" rx="8" fill="#fff3d6" class="o"/>
+<path d="M28 382L87 342L146 382Z" fill="#5aa9e6" class="o"/>
+<circle cx="87" cy="366" r="10" fill="#fff" class="o"/><path d="M87 360V366L92 368" stroke="#35506b" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<rect x="75" y="398" width="25" height="38" rx="12" fill="#7ccbff" class="o"/>
+<rect x="46" y="396" width="20" height="18" rx="5" fill="#bfe7ff" class="o"/><rect x="110" y="396" width="20" height="18" rx="5" fill="#bfe7ff" class="o"/>
+<rect x="164" y="400" width="52" height="34" rx="9" fill="#ff9b54" class="o"/><rect x="164" y="388" width="22" height="22" rx="6" fill="#ffcf4a" class="o"/><rect x="198" y="386" width="10" height="16" rx="3" fill="#35506b" class="n"/>
+<rect x="219" y="408" width="34" height="26" rx="7" fill="#ffcf4a" class="o"/>
+<circle cx="178" cy="437" r="7" fill="#fff3d6" class="o"/><circle cx="204" cy="437" r="7" fill="#fff3d6" class="o"/><circle cx="234" cy="437" r="6" fill="#fff3d6" class="o"/>
+<circle cx="203" cy="380" r="7" fill="#fff" class="puff n"/><circle cx="203" cy="380" r="7" fill="#fff" class="puff puff2 n"/>
+<rect class="pill o" x="46" y="316" width="82" height="26" rx="13" fill="#fff3d6"/><text x="87" y="334" text-anchor="middle" font-size="14">İstasyon</text>
+</g>
+
+<!-- Fırın -->
+<g data-place="firin" role="button" tabindex="0" aria-label="Fırın">
+<rect x="236" y="418" width="142" height="140" fill="transparent"/>
+<ellipse cx="304" cy="545" rx="64" ry="8" fill="#2f6f45" opacity=".25"/>
+<rect x="336" y="452" width="15" height="26" rx="3" fill="#c9774a" class="o"/>
+<rect x="252" y="482" width="104" height="62" rx="8" fill="#ffe2b0" class="o"/>
+<rect x="246" y="466" width="116" height="24" rx="9" fill="#ffb347" class="o"/>
+<g class="o"><rect x="252" y="488" width="26" height="18" rx="9" fill="#fff3d6"/><rect x="278" y="488" width="26" height="18" rx="9" fill="#ff9b54"/><rect x="304" y="488" width="26" height="18" rx="9" fill="#fff3d6"/><rect x="330" y="488" width="26" height="18" rx="9" fill="#ff9b54"/></g>
+<rect x="292" y="512" width="26" height="32" rx="12" fill="#8a5a3c" class="o"/><circle cx="313" cy="528" r="2" fill="#ffcf4a" class="n"/>
+<rect x="262" y="514" width="22" height="18" rx="5" fill="#bfe7ff" class="o"/><rect x="326" y="514" width="22" height="18" rx="5" fill="#bfe7ff" class="o"/>
+<circle cx="266" cy="460" r="0" fill="none"/>
+<rect class="pill o" x="278" y="424" width="52" height="26" rx="13" fill="#fff3d6"/><text x="304" y="442" text-anchor="middle" font-size="14">Fırın</text>
+</g>
+
+<!-- Evim -->
+<g data-place="ev" role="button" tabindex="0" aria-label="Evim">
+<rect x="20" y="600" width="140" height="170" fill="transparent"/>
+<ellipse cx="86" cy="736" rx="62" ry="8" fill="#2f6f45" opacity=".25"/>
+<rect x="104" y="650" width="14" height="26" rx="3" fill="#c9774a" class="o"/>
+<rect x="40" y="680" width="90" height="56" rx="8" fill="#fff3d6" class="o"/>
+<path d="M30 686L85 640L140 686Z" fill="#ff8a5b" class="o"/>
+<rect x="73" y="702" width="25" height="34" rx="12" fill="#8a5a3c" class="o"/>
+<rect x="48" y="698" width="18" height="16" rx="5" fill="#bfe7ff" class="o"/><rect x="106" y="698" width="18" height="16" rx="5" fill="#bfe7ff" class="o"/>
+<g class="o"><circle cx="38" cy="750" r="6" fill="#ff7a6b"/><circle cx="56" cy="754" r="6" fill="#ffcf4a"/><circle cx="114" cy="754" r="6" fill="#ff7a6b"/><circle cx="132" cy="750" r="6" fill="#fff"/></g>
+<rect class="pill o" x="59" y="606" width="52" height="26" rx="13" fill="#fff3d6"/><text x="85" y="624" text-anchor="middle" font-size="14">Evim</text>
+</g>
+
+<!-- Görev panosu -->
+<g data-place="gorev" role="button" tabindex="0" aria-label="Görev panosu">
+<rect x="284" y="560" width="100" height="170" fill="transparent"/>
+<ellipse cx="331" cy="718" rx="40" ry="7" fill="#2f6f45" opacity=".25"/>
+<rect x="302" y="660" width="9" height="56" rx="3" fill="#a56d3f" class="o"/><rect x="352" y="660" width="9" height="56" rx="3" fill="#a56d3f" class="o"/>
+<rect x="292" y="628" width="78" height="56" rx="9" fill="#e0a76c" class="o"/>
+<rect x="300" y="636" width="26" height="22" rx="3" fill="#fff3d6" class="o" transform="rotate(-5 313 647)"/><rect x="334" y="640" width="28" height="30" rx="3" fill="#fff9e6" class="o" transform="rotate(4 348 655)"/>
+<circle cx="313" cy="637" r="3.5" fill="#ff7a6b" class="n"/><circle cx="348" cy="641" r="3.5" fill="#5aa9e6" class="n"/>
+<g class="bob"><circle cx="331" cy="606" r="13" fill="#ffcf4a" class="o"/><text x="331" y="612" text-anchor="middle" font-size="17">!</text></g>
+<rect class="pill o" x="294" y="568" width="74" height="26" rx="13" fill="#fff3d6"/><text x="331" y="586" text-anchor="middle" font-size="14">Görevler</text>
+</g>
+
+<!-- decor -->
+<g class="o" fill="#4aaa6b"><circle cx="190" cy="740" r="14"/><circle cx="214" cy="748" r="10"/></g>
+<g class="n"><circle cx="186" cy="734" r="5" fill="#6fc27a"/><circle cx="206" cy="716" r="4" fill="#ff7a6b"/><circle cx="170" cy="700" r="4" fill="#ffcf4a"/><circle cx="262" cy="680" r="4" fill="#fff"/></g>
+
+<g data-spark="s1" class="spark"><circle cx="55" cy="575" r="24" fill="transparent"/><path d="M55 565L58 573L66 575L58 577L55 585L52 577L44 575L52 573Z" fill="#fff6a8" stroke="#ffcf4a" stroke-width="1.5" stroke-linejoin="round"/></g>
+<g data-spark="s2" class="spark"><circle cx="268" cy="700" r="24" fill="transparent"/><path d="M268 690L271 698L279 700L271 702L268 710L265 702L257 700L265 698Z" fill="#fff6a8" stroke="#ffcf4a" stroke-width="1.5" stroke-linejoin="round"/></g>
+<g data-spark="s3" class="spark"><circle cx="205" cy="748" r="24" fill="transparent"/><path d="M205 738L208 746L216 748L208 750L205 758L202 750L194 748L202 746Z" fill="#fff6a8" stroke="#ffcf4a" stroke-width="1.5" stroke-linejoin="round"/></g>
+<!-- konuşma balonu -->
+<g class="bob3" id="bubble"><path d="M180 508L188 524L198 508Z" fill="#fff" class="o"/><rect x="90" y="462" width="148" height="50" rx="18" fill="#fff" class="o"/><path d="M182 509H196" stroke="#fff" stroke-width="5"/>
+<text id="hello" x="164" y="484" text-anchor="middle" font-size="13">Merhaba!</text><text x="164" y="502" text-anchor="middle" font-size="13">Nereyi keşfedelim?</text></g>
+
+<g id="walker" style="transform:translate(195px,560px)"><g id="playerSlot"></g></g>
+</svg>
+
+<div class="hud">
+<div class="pill-ui" aria-label="Yıldızlar"><svg width="28" height="28" viewBox="0 0 24 24"><path d="M12 2.5l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17l-5.9 3.3 1.3-6.5L2.5 9.3l6.6-.8z" fill="#ffcf4a" stroke="#35506b" stroke-width="2" stroke-linejoin="round"/></svg><span id="starCount">0</span></div>
+<button class="btn" data-place="ayar" aria-label="Ayarlar"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#35506b" stroke-width="2.6" stroke-linecap="round"><circle cx="12" cy="12" r="3.2"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/></svg></button>
+</div>
+<div class="logo"><h1 aria-label="ÖĞRENİŞ"><span>Ö</span><span>Ğ</span><span>R</span><span>E</span><span>N</span><span>İ</span><span>Ş</span></h1><p>Oyna, keşfet, öğren!</p></div>
+</section>
+<section class="screen" id="screen-create" aria-hidden="true">
+<div class="prev"><svg id="prevSvg" viewBox="-55 -62 110 138" aria-label="Karakter önizlemesi"></svg></div>
+<div class="scroll"><div class="row"><b>Adın ne olsun?</b><input id="nameIn" maxlength="10" autocomplete="off" autocapitalize="words" placeholder="Takma ad yazabilirsin"><p id="hint"></p></div><div id="opts"></div></div>
+<button class="big" id="saveBtn">Hazırım!</button>
+</section>
+<section class="screen panel" id="screen-garden" aria-hidden="true">
+<div class="card"><h2>Evim ve bahçem</h2><p>Dokun ve bahçeni büyüt!</p></div>
+<div class="grid" id="gGrid"></div>
+<p class="ver" id="gCount"></p>
+<button class="big" data-act="back">Kasabaya dön</button>
+</section>
+<section class="screen" id="screen-bakery" aria-hidden="true">
+<div class="bk-top"><button class="btn" data-act="back" aria-label="Geri"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#35506b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button><div class="dots" id="bkDots"></div></div>
+<div class="bk-cust"><svg id="bkCust" viewBox="-48 -58 96 126" aria-hidden="true"></svg><div class="bubble"><span id="bkText"></span><button class="spk" id="bkSpk" aria-label="Sesli oku"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#35506b" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9z" fill="#fff3d6"/><path d="M16.5 8.5a5 5 0 010 7"/></svg></button></div></div>
+<div class="plate" id="bkPlate"><div id="bkItems"></div></div>
+<div class="tray" id="bkTray"></div>
+<button class="big" id="bkGo">Servis et</button>
+<div class="bk-q" id="bkQ" hidden><div class="card"><h2 id="bkAsk"></h2><div id="bkChoices"></div></div></div>
+<div class="bk-end" id="bkEnd" hidden><div class="card"><h2 id="bkEndT"></h2><p id="bkEndS"></p></div><button class="big" id="bkAgain">Tekrar oyna</button><button class="big alt" data-act="back">Kasabaya dön</button></div>
+</section>
+<section class="screen" id="screen-forest" aria-hidden="true">
+<div class="bk-top"><button class="btn" data-act="back" aria-label="Geri"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#35506b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button><div class="dots" id="fDots"></div></div>
+<div class="f-card"><div class="f-pic" id="fPic"></div><div class="f-word" id="fSlots"></div><button class="spk" id="fSpk" aria-label="Dinle"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#35506b" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9z" fill="#fff3d6"/><path d="M16.5 8.5a5 5 0 010 7"/></svg></button></div>
+<div class="f-hint" id="fHint"></div>
+<div id="fTiles"></div>
+<div class="bk-end" id="fEnd" hidden><div class="card"><h2 id="fEndT"></h2><p id="fEndS"></p></div><button class="big" id="fAgain">Tekrar oyna</button><button class="big alt" data-act="back">Kasabaya dön</button></div>
+</section>
+<section class="screen" id="screen-train" aria-hidden="true">
+<div class="bk-top"><button class="btn" data-act="back" aria-label="Geri"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#35506b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button><div class="dots" id="trDots"></div></div>
+<div class="tr-stage" id="trStage"><div class="tr-track" id="trTrack"></div></div>
+<div class="tr-ins"><div class="f-hint" id="trHint"></div><button class="spk" id="trSpk" aria-label="Dinle"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#35506b" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9v6h4l5 4V5L8 9z" fill="#fff3d6"/><path d="M16.5 8.5a5 5 0 010 7"/></svg></button></div>
+<div class="tr-pass" id="trPass" hidden><svg id="trWho" viewBox="-48 -58 96 126" aria-hidden="true"></svg><div class="bubble"><div class="f-pic" id="trPic"></div></div></div>
+<div id="trPanel"></div>
+<div class="bk-end" id="trEnd" hidden><div class="card"><h2 id="trEndT"></h2><p id="trEndS"></p></div><button class="big" id="trAgain">Tekrar oyna</button><button class="big alt" data-act="back">Kasabaya dön</button></div>
+</section>
+<section class="screen panel" id="screen-soon" aria-hidden="true">
+<div class="card"><div class="icon" id="soonIcon"></div><h2 id="soonTitle">Alan</h2><p>Bu alan çok yakında açılacak.</p></div>
+<button class="big" data-act="back">Kasabaya dön</button>
+</section>
+<section class="screen panel" id="screen-settings" aria-hidden="true">
+<div class="card"><h2>Ayarlar</h2><p class="ver" id="ver"></p></div>
+<button class="big alt" id="soundBtn" data-act="sound" aria-pressed="true">Ses açık</button>
+<button class="big alt" data-act="editchar">Karakterimi değiştir</button>
+<button class="big alt" data-act="log">Hata günlüğü</button>
+<button class="big" data-act="back">Kasabaya dön</button>
+</section>
+<section class="screen panel" id="screen-log" aria-hidden="true">
+<div class="card"><h2>Hata günlüğü</h2></div>
+<pre class="logbox" id="logBox"></pre>
+<button class="big alt" data-act="copylog">Kopyala</button>
+<button class="big alt" data-act="clearlog">Temizle</button>
+<button class="big" data-act="back">Geri</button>
+</section>
+</div>
+<script src="ogr-errors.js?v=0.7.0"></script>
+<script src="ogr-state.js?v=0.7.0"></script>
+<script src="ogr-audio.js?v=0.7.0"></script>
+<script src="ogr-learning.js?v=0.7.0"></script>
+<script src="ogr-nav.js?v=0.7.0"></script>
+<script src="ogr-player.js?v=0.7.0"></script>
+<script src="ogr-world.js?v=0.7.0"></script>
+<script src="ogr-garden.js?v=0.7.0"></script>
+<script src="ogr-math-data.js?v=0.7.0"></script>
+<script src="ogr-bakery.js?v=0.7.0"></script>
+<script src="ogr-tr-data.js?v=0.7.0"></script>
+<script src="ogr-forest.js?v=0.7.0"></script>
+<script src="ogr-train-data.js?v=0.7.0"></script>
+<script src="ogr-train.js?v=0.7.0"></script>
+<script src="ogr-app.js?v=0.7.0"></script>
+</body>
+</html>
